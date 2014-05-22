@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "PKResManagerKit.h"
+    #import "Addtional/Addtional.h"
+    #import "Defines.h"
 #endif
