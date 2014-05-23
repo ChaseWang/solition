@@ -16,4 +16,6 @@
     #import "PKResManagerKit.h"
     #import "Addtional/Addtional.h"
     #import "Defines.h"
+    #import "AFNetworking.h"
+    #import "UIKit+AFNetworking.h"
 #endif
