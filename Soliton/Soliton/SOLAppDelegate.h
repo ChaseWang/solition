@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Configuration.h"
 
 @interface SOLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, strong) DDFileLogger             *fileLogger;
 @end

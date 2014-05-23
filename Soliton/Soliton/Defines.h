@@ -9,7 +9,6 @@
 #ifndef RHCCore_Defines_h
 #define RHCCore_Defines_h
 
-
 /*
  * 通过RGB创建UIColor
  */
@@ -93,8 +92,5 @@ alpha:alphaValue]
 
 //默认多语言表
 #define RS_CURRENT_LANGUAGE_TABLE  [[NSUserDefaults standardUserDefaults] objectForKey:@"LanguageSwtich"]?[[NSUserDefaults standardUserDefaults] objectForKey:@"LanguageSwtich"]:@"zh-Hans"
-
-
-
 
 #endif

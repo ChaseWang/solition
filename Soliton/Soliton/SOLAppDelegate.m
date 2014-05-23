@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self initLogger];
     return YES;
 }
 							
@@ -41,6 +42,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)initLogger
+{
+#if FILE_LOG_MODE
+    self.fileLogger = [[DDFileLogger alloc] init];
+    self.fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
+    self.fileLogger.logFileManager.maximumNumberOfLogFiles = 10;
+    [DDLog addLogger:self.fileLogger];
+#endif
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+
+    DDLogError(@"Log level error will show");
+    DDLogWarn(@"Log level warn will show");
+    DDLogInfo(@"Log level info will show");
+    DDLogVerbose(@"Log level verbose will show");
 }
 
 @end

@@ -53,29 +53,5 @@
 @end
 #endif
 
-// TODO: 上线前删除
-//#warning 使用了私有 API，有审核风险，上线前删除！
-//#ifdef DEBUG
-//// 模拟真机内存警告
-//@implementation NSObject (RHCBlockTimer)
-//
-//- (void)logTimeConsumptionOfBlock:(void (^)(void)) block withPrefix:(NSString*) prefixString {
-//    double a = CFAbsoluteTimeGetCurrent();
-//    block();
-//    double b = CFAbsoluteTimeGetCurrent();
-//    unsigned int runTime = ((b - a) * 1000.0f);
-//    DDLogInfo(@"%@: %d ms", prefixString ? prefixString : @"Time taken", runTime);
-//}
-//+(void)sendMemoryWarning{
-//    SEL memoryWarningSel = @selector(_performMemoryWarning);
-//    if ([[UIApplication sharedApplication] respondsToSelector:memoryWarningSel]) {
-//        [[UIApplication sharedApplication] performSelector:memoryWarningSel];
-//    }else {
-//        NSLog(@"%@",@"Whoops UIApplication no loger responds to -_performMemoryWarning");
-//    }
-//}
-//@end
-//#endif
-
 
 

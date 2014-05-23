@@ -46,6 +46,26 @@
 		93EA2564192F44BA00C36829 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA255A192F44BA00C36829 /* UIProgressView+AFNetworking.m */; };
 		93EA2565192F44BA00C36829 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA255C192F44BA00C36829 /* UIRefreshControl+AFNetworking.m */; };
 		93EA2566192F44BA00C36829 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA255E192F44BA00C36829 /* UIWebView+AFNetworking.m */; };
+		93EA256B192F45BE00C36829 /* RNSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA256A192F45BE00C36829 /* RNSettingManager.m */; };
+		93EA2574192F465A00C36829 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA256D192F465A00C36829 /* AppConfig.m */; };
+		93EA2575192F465A00C36829 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA256F192F465A00C36829 /* AppContext.m */; };
+		93EA2576192F465A00C36829 /* AppStartup.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2571192F465A00C36829 /* AppStartup.m */; };
+		93EA2577192F465A00C36829 /* AppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2573192F465A00C36829 /* AppUser.m */; };
+		93EA257A192F48DD00C36829 /* AppNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2579192F48DD00C36829 /* AppNavigator.m */; };
+		93EA257D192F49AE00C36829 /* AppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA257C192F49AE00C36829 /* AppNavigationController.m */; };
+		93EA2580192F4BC800C36829 /* AppKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA257F192F4BC800C36829 /* AppKeyChain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93EA259B192F531200C36829 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2585192F531200C36829 /* CLIColor.m */; };
+		93EA259C192F531200C36829 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2587192F531200C36829 /* DDAbstractDatabaseLogger.m */; };
+		93EA259D192F531200C36829 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2589192F531200C36829 /* DDASLLogCapture.m */; };
+		93EA259E192F531200C36829 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA258B192F531200C36829 /* DDASLLogger.m */; };
+		93EA259F192F531200C36829 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA258D192F531200C36829 /* DDFileLogger.m */; };
+		93EA25A0192F531200C36829 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2590192F531200C36829 /* DDLog.m */; };
+		93EA25A1192F531200C36829 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2592192F531200C36829 /* DDTTYLogger.m */; };
+		93EA25A2192F531200C36829 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2595192F531200C36829 /* DDContextFilterLogFormatter.m */; };
+		93EA25A3192F531200C36829 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2597192F531200C36829 /* DDDispatchQueueLogFormatter.m */; };
+		93EA25A4192F531200C36829 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA2599192F531200C36829 /* DDMultiFormatter.m */; };
+		93EA25A5192F531200C36829 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93EA259A192F531200C36829 /* README.txt */; };
+		93EA25A8192F559500C36829 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA25A7192F559500C36829 /* Configuration.m */; };
 		93EEB58C192DF14100BC81CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB58B192DF14100BC81CE /* Foundation.framework */; };
 		93EEB58E192DF14100BC81CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB58D192DF14100BC81CE /* CoreGraphics.framework */; };
 		93EEB590192DF14100BC81CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB58F192DF14100BC81CE /* UIKit.framework */; };
@@ -162,6 +182,46 @@
 		93EA255C192F44BA00C36829 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		93EA255D192F44BA00C36829 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		93EA255E192F44BA00C36829 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		93EA2569192F45BE00C36829 /* RNSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSettingManager.h; sourceTree = "<group>"; };
+		93EA256A192F45BE00C36829 /* RNSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSettingManager.m; sourceTree = "<group>"; };
+		93EA256C192F465A00C36829 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		93EA256D192F465A00C36829 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		93EA256E192F465A00C36829 /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		93EA256F192F465A00C36829 /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
+		93EA2570192F465A00C36829 /* AppStartup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStartup.h; sourceTree = "<group>"; };
+		93EA2571192F465A00C36829 /* AppStartup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStartup.m; sourceTree = "<group>"; };
+		93EA2572192F465A00C36829 /* AppUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUser.h; sourceTree = "<group>"; };
+		93EA2573192F465A00C36829 /* AppUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUser.m; sourceTree = "<group>"; };
+		93EA2578192F48DD00C36829 /* AppNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigator.h; sourceTree = "<group>"; };
+		93EA2579192F48DD00C36829 /* AppNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigator.m; sourceTree = "<group>"; };
+		93EA257B192F49AE00C36829 /* AppNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigationController.h; sourceTree = "<group>"; };
+		93EA257C192F49AE00C36829 /* AppNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigationController.m; sourceTree = "<group>"; };
+		93EA257E192F4BC800C36829 /* AppKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKeyChain.h; sourceTree = "<group>"; };
+		93EA257F192F4BC800C36829 /* AppKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppKeyChain.m; sourceTree = "<group>"; };
+		93EA2584192F531200C36829 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		93EA2585192F531200C36829 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		93EA2586192F531200C36829 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		93EA2587192F531200C36829 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		93EA2588192F531200C36829 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		93EA2589192F531200C36829 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		93EA258A192F531200C36829 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		93EA258B192F531200C36829 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		93EA258C192F531200C36829 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		93EA258D192F531200C36829 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		93EA258E192F531200C36829 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		93EA258F192F531200C36829 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		93EA2590192F531200C36829 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		93EA2591192F531200C36829 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		93EA2592192F531200C36829 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		93EA2594192F531200C36829 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		93EA2595192F531200C36829 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		93EA2596192F531200C36829 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		93EA2597192F531200C36829 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		93EA2598192F531200C36829 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		93EA2599192F531200C36829 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		93EA259A192F531200C36829 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		93EA25A6192F559500C36829 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		93EA25A7192F559500C36829 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
 		93EEB588192DF14100BC81CE /* Soliton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soliton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EEB58B192DF14100BC81CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93EEB58D192DF14100BC81CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -345,6 +405,83 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		93EA2567192F455800C36829 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				93EA25A6192F559500C36829 /* Configuration.h */,
+				93EA25A7192F559500C36829 /* Configuration.m */,
+				93EA257E192F4BC800C36829 /* AppKeyChain.h */,
+				93EA257F192F4BC800C36829 /* AppKeyChain.m */,
+				93EA2578192F48DD00C36829 /* AppNavigator.h */,
+				93EA2579192F48DD00C36829 /* AppNavigator.m */,
+				93EA256C192F465A00C36829 /* AppConfig.h */,
+				93EA256D192F465A00C36829 /* AppConfig.m */,
+				93EA256E192F465A00C36829 /* AppContext.h */,
+				93EA256F192F465A00C36829 /* AppContext.m */,
+				93EA2570192F465A00C36829 /* AppStartup.h */,
+				93EA2571192F465A00C36829 /* AppStartup.m */,
+				93EA2572192F465A00C36829 /* AppUser.h */,
+				93EA2573192F465A00C36829 /* AppUser.m */,
+				93EA257B192F49AE00C36829 /* AppNavigationController.h */,
+				93EA257C192F49AE00C36829 /* AppNavigationController.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		93EA2568192F45BE00C36829 /* SettingManager */ = {
+			isa = PBXGroup;
+			children = (
+				93EA2569192F45BE00C36829 /* RNSettingManager.h */,
+				93EA256A192F45BE00C36829 /* RNSettingManager.m */,
+			);
+			path = SettingManager;
+			sourceTree = "<group>";
+		};
+		93EA2582192F531200C36829 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				93EA2583192F531200C36829 /* CLI */,
+				93EA2586192F531200C36829 /* DDAbstractDatabaseLogger.h */,
+				93EA2587192F531200C36829 /* DDAbstractDatabaseLogger.m */,
+				93EA2588192F531200C36829 /* DDASLLogCapture.h */,
+				93EA2589192F531200C36829 /* DDASLLogCapture.m */,
+				93EA258A192F531200C36829 /* DDASLLogger.h */,
+				93EA258B192F531200C36829 /* DDASLLogger.m */,
+				93EA258C192F531200C36829 /* DDFileLogger.h */,
+				93EA258D192F531200C36829 /* DDFileLogger.m */,
+				93EA258E192F531200C36829 /* DDLog+LOGV.h */,
+				93EA258F192F531200C36829 /* DDLog.h */,
+				93EA2590192F531200C36829 /* DDLog.m */,
+				93EA2591192F531200C36829 /* DDTTYLogger.h */,
+				93EA2592192F531200C36829 /* DDTTYLogger.m */,
+				93EA2593192F531200C36829 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		93EA2583192F531200C36829 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				93EA2584192F531200C36829 /* CLIColor.h */,
+				93EA2585192F531200C36829 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		93EA2593192F531200C36829 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93EA2594192F531200C36829 /* DDContextFilterLogFormatter.h */,
+				93EA2595192F531200C36829 /* DDContextFilterLogFormatter.m */,
+				93EA2596192F531200C36829 /* DDDispatchQueueLogFormatter.h */,
+				93EA2597192F531200C36829 /* DDDispatchQueueLogFormatter.m */,
+				93EA2598192F531200C36829 /* DDMultiFormatter.h */,
+				93EA2599192F531200C36829 /* DDMultiFormatter.m */,
+				93EA259A192F531200C36829 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		93EEB57F192DF14100BC81CE = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +515,7 @@
 		93EEB591192DF14100BC81CE /* Soliton */ = {
 			isa = PBXGroup;
 			children = (
+				93EA2567192F455800C36829 /* Config */,
 				93E49BE6192E55FC008EF183 /* Addtional */,
 				93EEB5D7192DF1F700BC81CE /* ThirdPart */,
 				93EEB5C0192DF19100BC81CE /* Tools */,
@@ -425,6 +563,7 @@
 		93EEB5C0192DF19100BC81CE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				93EA2568192F45BE00C36829 /* SettingManager */,
 				93EEB5C1192DF19100BC81CE /* HudHelper */,
 				93EEB5C4192DF19100BC81CE /* PKResManager */,
 			);
@@ -470,6 +609,7 @@
 		93EEB5D7192DF1F700BC81CE /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				93EA2582192F531200C36829 /* Lumberjack */,
 				93EA254D192F44BA00C36829 /* UIKit+AFNetworking */,
 				93EA252E192F428B00C36829 /* AFNetworking */,
 				93E49C30192E5CC9008EF183 /* GTM */,
@@ -569,6 +709,7 @@
 				93EEB596192DF14100BC81CE /* InfoPlist.strings in Resources */,
 				93EEB59F192DF14100BC81CE /* Main.storyboard in Resources */,
 				93E49BDA192E3E8F008EF183 /* skin_default.bundle in Resources */,
+				93EA25A5192F531200C36829 /* README.txt in Resources */,
 				93E49BD8192E3C19008EF183 /* resource_common.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,12 +729,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EA2577192F465A00C36829 /* AppUser.m in Sources */,
 				93EA2565192F44BA00C36829 /* UIRefreshControl+AFNetworking.m in Sources */,
+				93EA2574192F465A00C36829 /* AppConfig.m in Sources */,
 				93E49C1C192E55FC008EF183 /* UIDevice+UIDeviceExt.m in Sources */,
+				93EA259B192F531200C36829 /* CLIColor.m in Sources */,
 				93E49C1D192E55FC008EF183 /* UIImage+Addtional.m in Sources */,
 				93EEB5A2192DF14100BC81CE /* SOLViewController.m in Sources */,
 				93EA2566192F44BA00C36829 /* UIWebView+AFNetworking.m in Sources */,
+				93EA259C192F531200C36829 /* DDAbstractDatabaseLogger.m in Sources */,
 				93E49C23192E55FC008EF183 /* UIWindow+RscExt.m in Sources */,
+				93EA25A8192F559500C36829 /* Configuration.m in Sources */,
+				93EA259D192F531200C36829 /* DDASLLogCapture.m in Sources */,
+				93EA25A3192F531200C36829 /* DDDispatchQueueLogFormatter.m in Sources */,
 				93EA2564192F44BA00C36829 /* UIProgressView+AFNetworking.m in Sources */,
 				93EA255F192F44BA00C36829 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				93EA2547192F428B00C36829 /* AFURLConnectionOperation.m in Sources */,
@@ -602,17 +750,25 @@
 				93E49C2D192E5AB8008EF183 /* CJSONDeserializer.m in Sources */,
 				93E49C37192E5CC9008EF183 /* GTMStackTrace.m in Sources */,
 				93EEB5D2192DF19100BC81CE /* PKAnimation+PKType.m in Sources */,
+				93EA25A4192F531200C36829 /* DDMultiFormatter.m in Sources */,
 				93EEB5D4192DF19100BC81CE /* UIFont+PKFont.m in Sources */,
+				93EA257A192F48DD00C36829 /* AppNavigator.m in Sources */,
 				93EA2562192F44BA00C36829 /* UIButton+AFNetworking.m in Sources */,
 				93EA2548192F428B00C36829 /* AFURLRequestSerialization.m in Sources */,
 				93E49C1F192E55FC008EF183 /* UINavigationBar+Image.m in Sources */,
 				93E49C1A192E55FC008EF183 /* UIButton+RHCUIButtonExt.m in Sources */,
 				93EEB5D6192DF19100BC81CE /* PKResManager.m in Sources */,
+				93EA2576192F465A00C36829 /* AppStartup.m in Sources */,
+				93EA2580192F4BC800C36829 /* AppKeyChain.m in Sources */,
+				93EA2575192F465A00C36829 /* AppContext.m in Sources */,
 				93E49C13192E55FC008EF183 /* NSDictionary+NSDictionaryExt.m in Sources */,
+				93EA25A2192F531200C36829 /* DDContextFilterLogFormatter.m in Sources */,
 				93EEB598192DF14100BC81CE /* main.m in Sources */,
+				93EA256B192F45BE00C36829 /* RNSettingManager.m in Sources */,
 				93E49C1B192E55FC008EF183 /* UIDevice+Addtional.m in Sources */,
 				93E49C22192E55FC008EF183 /* UIView+Additions.m in Sources */,
 				93EEB59C192DF14100BC81CE /* SOLAppDelegate.m in Sources */,
+				93EA259E192F531200C36829 /* DDASLLogger.m in Sources */,
 				93E49C1E192E55FC008EF183 /* UIImage-Extensions.m in Sources */,
 				93E49C15192E55FC008EF183 /* NSObject-ClassName.m in Sources */,
 				93E49C36192E5CC9008EF183 /* GTMBase64.m in Sources */,
@@ -626,15 +782,19 @@
 				93EA2561192F44BA00C36829 /* UIAlertView+AFNetworking.m in Sources */,
 				93EA2549192F428B00C36829 /* AFURLResponseSerialization.m in Sources */,
 				93EEB5DB192DF1F700BC81CE /* MBProgressHUD.m in Sources */,
+				93EA259F192F531200C36829 /* DDFileLogger.m in Sources */,
 				93EEB5D5192DF19100BC81CE /* UIImage+PKImage.m in Sources */,
 				93EA2544192F428B00C36829 /* AFHTTPSessionManager.m in Sources */,
 				93EA2545192F428B00C36829 /* AFNetworkReachabilityManager.m in Sources */,
 				93EEB5D1192DF19100BC81CE /* HudHelper.m in Sources */,
 				93EA2542192F428B00C36829 /* AFHTTPRequestOperation.m in Sources */,
+				93EA257D192F49AE00C36829 /* AppNavigationController.m in Sources */,
 				93E49C2F192E5AB8008EF183 /* NSDictionary_JSONExtensions.m in Sources */,
 				93EA2560192F44BA00C36829 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				93E49C21192E55FC008EF183 /* UITableViewAdditions.m in Sources */,
+				93EA25A1192F531200C36829 /* DDTTYLogger.m in Sources */,
 				93E49C19192E55FC008EF183 /* UIButton+Addictions.m in Sources */,
+				93EA25A0192F531200C36829 /* DDLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
