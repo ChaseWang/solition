@@ -58,6 +58,15 @@
 #define PUBLISH_ENGISH_KEYBOARD_TOP 216.0
 
 
+#define WHITE_SPACE 39.0f
+#define STATUS_BAR_HEIGHT 20.0f
+
+/*
+ * iPhone 屏幕减去状态栏和导航条后剩余的高度
+ */
+#define PHONE_CONTENT_HEIGHT (SCREEN_HEIGHT - PHONE_STATUSBAR_HEIGHT - PHONE_NAVIGATIONBAR_HEIGHT)
+
+
 #define UIColorFromRGB(rgbValue) [UIColor \
 colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9356927D19348D02007989B8 /* FHBirthDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9356927C19348D02007989B8 /* FHBirthDatePickerView.m */; };
 		93E49BD8192E3C19008EF183 /* resource_common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93E49BD7192E3C19008EF183 /* resource_common.bundle */; };
 		93E49BDA192E3E8F008EF183 /* skin_default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93E49BD9192E3E8F008EF183 /* skin_default.bundle */; };
 		93E49C12192E55FC008EF183 /* NSDate+NSDateExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E49BED192E55FC008EF183 /* NSDate+NSDateExt.m */; };
@@ -100,6 +101,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9356927B19348D02007989B8 /* FHBirthDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHBirthDatePickerView.h; sourceTree = "<group>"; };
+		9356927C19348D02007989B8 /* FHBirthDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHBirthDatePickerView.m; sourceTree = "<group>"; };
 		93E49BD7192E3C19008EF183 /* resource_common.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource_common.bundle; sourceTree = "<group>"; };
 		93E49BD9192E3E8F008EF183 /* skin_default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = skin_default.bundle; sourceTree = "<group>"; };
 		93E49BE7192E55FC008EF183 /* Addtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addtional.h; sourceTree = "<group>"; };
@@ -282,6 +285,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9356927A19348CF2007989B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9356927B19348D02007989B8 /* FHBirthDatePickerView.h */,
+				9356927C19348D02007989B8 /* FHBirthDatePickerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		93E49BD6192E3C19008EF183 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +527,7 @@
 		93EEB591192DF14100BC81CE /* Soliton */ = {
 			isa = PBXGroup;
 			children = (
+				9356927A19348CF2007989B8 /* Views */,
 				93EA2567192F455800C36829 /* Config */,
 				93E49BE6192E55FC008EF183 /* Addtional */,
 				93EEB5D7192DF1F700BC81CE /* ThirdPart */,
@@ -766,6 +779,7 @@
 				93EEB598192DF14100BC81CE /* main.m in Sources */,
 				93EA256B192F45BE00C36829 /* RNSettingManager.m in Sources */,
 				93E49C1B192E55FC008EF183 /* UIDevice+Addtional.m in Sources */,
+				9356927D19348D02007989B8 /* FHBirthDatePickerView.m in Sources */,
 				93E49C22192E55FC008EF183 /* UIView+Additions.m in Sources */,
 				93EEB59C192DF14100BC81CE /* SOLAppDelegate.m in Sources */,
 				93EA259E192F531200C36829 /* DDASLLogger.m in Sources */,
