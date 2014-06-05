@@ -11,7 +11,6 @@
 #import "UIWindow+RscExt.h"
 #import "UITableViewAdditions.h"
 #import "UINavigationBar+Image.h"
-#import "UIImage-Extensions.h"
 #import "UIImage+Addtional.h"
 #import "UIDevice+UIDeviceExt.h"
 #import "UIDevice+Addtional.h"
@@ -22,3 +21,4 @@
 #import "NSKeyedUnarchiver+ExceptionCatch.h"
 #import "NSDictionary+NSDictionaryExt.h"
 #import "NSDate+NSDateExt.h"
+#import "UIBarButtonItem+Image.h"
